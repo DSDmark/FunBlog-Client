@@ -25,7 +25,7 @@
 
 > **Note**: 📝 There is **two part** of this **application** so if you're going to use this application than understanding the following things see down below.
 
-1. As I mentioned above there is two par of this application, first is **FunBlog-Client** for **client-side** and second is **FunBlog-Server** for **server-side**. 
+1. As I mentioned above there is two part of this application, first is **FunBlog-Client** for **client-side** and second is **FunBlog-Server** for **server-side**. 
 2. It's a client-site with is made on **React JS** and use **NodeJS** as a server site. As for database, I used **MongoDB**. I'm used Replit for making this website. You can't run both client and server with one server on Replit. That why, I had separated both part.
 
 ---
