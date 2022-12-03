@@ -1,11 +1,10 @@
 import { Dispatch } from "redux";
-import { AUTH, IAuthType } from "../types/authTypes";}
+import { AUTH, IAuthType } from "../types/authTypes";
 import { postAPI } from "../../utils/FetchData";
 import { IUserLogin } from "../../utils/TypeScript";
 
-export const login = (userLogin: IUserLogin) =>
-	async (dispatch: Dispatch<IAuthType>)
-		=> {
+export const login = (userLogin: IUserLogin):any =>
+	async (dispatch: Dispatch<IAuthType>) => {
 		try {
 			const res = await postAPI("login", userLogin);
 			console.log(res);
